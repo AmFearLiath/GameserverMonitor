@@ -1,0 +1,19 @@
+{
+  "name": "@gm/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@gm/config": "workspace:*",
+    "@gm/db": "workspace:*",
+    "@gm/logger": "workspace:*"
+  }
+}

@@ -1,0 +1,35 @@
+:root[data-theme='dark'] {
+  --color-bg-primary: #050507;
+  --color-bg-secondary: #0b0c0f;
+  --color-surface: #111317;
+  --color-surface-hover: #171a20;
+  --color-surface-elevated: #14171d;
+
+  --color-text-primary: #eceff4;
+  --color-text-secondary: #c2c7d0;
+  --color-text-muted: #9399a4;
+  --color-text-inverted: #07080a;
+
+  --color-border: #2a2e36;
+  --color-border-subtle: #22262e;
+  --color-border-strong: #3a404c;
+
+  --color-status-online: #53e38f;
+  --color-status-offline: #ea3a55;
+  --color-status-transition: #f4a220;
+  --color-status-maintenance: #9ca3af;
+
+  --color-overlay: rgba(5, 6, 8, 0.84);
+  --color-focus-ring: #8b909a;
+
+  --chart-line-color: #58df92;
+  --metric-online-bg: rgba(83, 227, 143, 0.16);
+  --metric-offline-bg: rgba(234, 58, 85, 0.16);
+  --metric-transition-bg: rgba(244, 162, 32, 0.16);
+  --metric-maintenance-bg: rgba(156, 163, 175, 0.16);
+
+  --shadow-sm: 0 2px 8px rgba(1, 5, 14, 0.46);
+  --shadow-md: 0 18px 40px rgba(0, 4, 12, 0.56);
+
+  --font-family-base: 'Inter', system-ui, sans-serif;
+}

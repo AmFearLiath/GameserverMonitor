@@ -1,0 +1,21 @@
+[Unit]
+Description=GameMonitoring Worker
+After=network.target mariadb.service gm-api.service
+Wants=mariadb.service
+
+[Service]
+Type=simple
+User=gm
+Group=gm
+WorkingDirectory=/opt/gamemonitoring
+EnvironmentFile=/opt/gamemonitoring/.env
+ExecStart=/usr/bin/node /opt/gamemonitoring/apps/worker/dist/index.js
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

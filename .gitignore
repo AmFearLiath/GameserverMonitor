@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.local
+coverage
+pnpm-lock.yaml
+.vscode/
+error-devtools.txt
+master-prompt.md
+*.log

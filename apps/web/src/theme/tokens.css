@@ -1,0 +1,27 @@
+:root {
+  --container-max-width: 100%;
+  --header-height: 64px;
+  --sidebar-width: 240px;
+  --sidebar-width-collapsed: 84px;
+
+  --spacing-2xs: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.45;
+}

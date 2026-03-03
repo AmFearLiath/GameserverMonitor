@@ -1,0 +1,42 @@
+services:
+  api:
+    image: node:20-alpine
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: sh -c "corepack enable && pnpm install && pnpm dev:api"
+    environment:
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3307
+      DB_USER: root
+      DB_PASSWORD: ""
+      DB_NAME: gameserver_monitoring
+      API_PORT: 3000
+    ports:
+      - "3000:3000"
+
+  worker:
+    image: node:20-alpine
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: sh -c "corepack enable && pnpm install && pnpm dev:worker"
+    environment:
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3307
+      DB_USER: root
+      DB_PASSWORD: ""
+      DB_NAME: gameserver_monitoring
+      WORKER_TICK_MS: 30000
+
+  web:
+    image: node:20-alpine
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: sh -c "corepack enable && pnpm install && pnpm dev:web"
+    environment:
+      VITE_API_BASE_URL: http://localhost:3000/api/v1
+      WEB_PORT: 5173
+    ports:
+      - "5173:5173"

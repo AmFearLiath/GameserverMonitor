@@ -1,0 +1,1020 @@
+{
+  "ui": {
+    "app_title": "GameServer Monitoring",
+    "theme": {
+      "dark": "Dunkel",
+      "light": "Hell"
+    },
+    "language": {
+      "switch": "Sprache ({{locale}})"
+    },
+    "header": {
+      "brand_short": "GM",
+      "brand_name": "Gameserver Monitoring",
+      "open_public_home": "Startseite",
+      "search_placeholder": "Server suchen...",
+      "theme_toggle": "Hell / Dunkel",
+      "user_profile": "Profil",
+      "user_menu": "Benutzermenü",
+      "user_avatar": "Benutzeravatar"
+    },
+    "sidebar": {
+      "aria": "Hauptnavigation",
+      "groups": {
+        "monitoring": "Monitoring",
+        "management": "Verwaltung",
+        "account": "Konto"
+      },
+      "dashboard": "Dashboard",
+      "incidents": "Incidents",
+      "servers": "Server",
+      "admin": "Admin",
+      "users": "Benutzer",
+      "profile": "Profil",
+      "theme_toggle": "Hell / Dunkel",
+      "collapse": "Einklappen",
+      "expand": "Ausklappen",
+      "locale_en": "EN",
+      "locale_de": "DE"
+    },
+    "auth": {
+      "checking": "Sitzung wird geprüft...",
+      "logout": "Abmelden",
+      "signed_in_as": "Angemeldet als {{username}}"
+    },
+    "profile": {
+      "title": "Mein Profil",
+      "subtitle": "Persönliche Einstellungen und Zugangsdaten",
+      "loading": "Profil wird geladen...",
+      "username": "Benutzername",
+      "email": "E-Mail",
+      "display_name": "Anzeigename",
+      "avatar_url": "Avatar-URL",
+      "timezone": "Zeitzone",
+      "locale": "Sprache",
+      "ptero_title": "Pterodactyl Client API",
+      "ptero_description": "Dieser Schlüssel wird für Start/Stop/Neustart und Konsolen-Logs verwendet.",
+      "client_api_key": "Client API Key",
+      "client_api_key_placeholder": "Neuen Client API Key eingeben",
+      "notify_email": "E-Mail Benachrichtigungen",
+      "notify_discord": "Discord Benachrichtigungen",
+      "save": "Profil speichern",
+      "saved": "Profil wurde gespeichert"
+    },
+    "login": {
+      "title": "Anmeldung",
+      "username": "Benutzername",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "close_modal": "Login-Modal schließen",
+      "invalid_credentials": "Ungültiger Benutzername oder Passwort.",
+      "submit": "Dashboard öffnen",
+      "register_submit": "Konto erstellen",
+      "discord": "Mit Discord anmelden",
+      "remember_me": "Eingeloggt bleiben",
+      "switch_to_register": "Noch kein Konto? Registrieren",
+      "switch_to_login": "Bereits ein Konto? Anmelden",
+      "loading": "Anmeldung läuft..."
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "last_updated": "Zuletzt aktualisiert: {{time}}",
+      "empty": "Keine Server verfügbar",
+      "loading": "Dashboard wird geladen...",
+      "performance_short": {
+        "online": "ON",
+        "offline": "OFF",
+        "transition": "TRN",
+        "maintenance": "MNT"
+      }
+    },
+    "public_home": {
+      "title": "Gameserver Übersicht",
+      "search_placeholder": "Gameserver suchen...",
+      "login_button": "Admin",
+      "back_to_admin": "Admins",
+      "details_button": "Details",
+      "loading_trends": "Lade 24h-Verläufe (5-Minuten-Takt)...",
+      "next_refresh": "Nächste Aktualisierung in {{seconds}}s",
+      "hero_title": "Alle angeschlossenen Gameserver auf einen Blick",
+      "hero_subtitle": "Status, RTT und Spielerzahlen in einer zentralen Übersicht. Für Verwaltung und Konfiguration bitte im Adminbereich anmelden.",
+      "view_toggle": "Liste / Cards",
+      "hide_offline": "Offline ausblenden",
+      "total_servers": "Gesamt",
+      "metrics": {
+        "avg_rtt": "Ø RTT",
+        "players_now": "Spieler jetzt"
+      },
+      "charts": {
+        "rtt": "RTT Verlauf (aktuelle Server)",
+        "players": "Aktuelle Spieler (aktuelle Server)",
+        "rtt_aria": "RTT Diagramm",
+        "players_aria": "Spieler Diagramm",
+        "server_rtt_aria": "RTT Verlauf für {{server}}",
+        "server_players_aria": "Spieler Verlauf für {{server}}"
+      },
+      "server_fields": {
+        "panel": "Panel",
+        "trends": "Verläufe"
+      },
+      "empty": "Keine passenden Gameserver gefunden"
+    },
+    "filters": {
+      "search": "Suche",
+      "status": "Status",
+      "tags": "Tags",
+      "panel": "Panel",
+      "grid_list_toggle": "Grid / Liste",
+      "all_statuses": "Alle Status",
+      "all_tags": "Alle Tags",
+      "all_panels": "Alle Panels"
+    },
+    "server_card": {
+      "players": "Spieler: {{current}} / {{max}}",
+      "rtt": "Ping: {{value}}",
+      "last_check": "Letzter Check: vor {{minutes}}m",
+      "details": "Details",
+      "players_short": "Spieler",
+      "rtt_short": "RTT",
+      "last_check_short": "Letzter Check"
+    },
+    "servers": {
+      "add_button": "Server hinzufügen",
+      "reason_badges": {
+        "timeout": "Timeout",
+        "unsupported": "Nicht unterstützt",
+        "panel_sync": "Panel-Sync",
+        "unknown": "Unbekannt"
+      },
+      "modal": {
+        "title": "Überwachungsserver hinzufügen",
+        "sections": {
+          "basic": "Basisdaten",
+          "network": "Netzwerk",
+          "monitoring": "Monitoring"
+        },
+        "name": "Servername",
+        "game_label": "Spielbezeichnung",
+        "panel": "Panel",
+        "host": "Host",
+        "game_port": "Game-Port",
+        "query_port": "Query-Port",
+        "port": "Port",
+        "max_players": "Max. Spieler",
+        "protocol": "Protokoll",
+        "purpose": "Zweck",
+        "tags": "Tags (kommagetrennt)",
+        "submit": "Server anlegen"
+      }
+    },
+    "incidents": {
+      "title": "Aktive Incidents",
+      "server": "Server",
+      "status": "Status",
+      "started": "Gestartet"
+    },
+    "events": {
+      "tabs": {
+        "incidents": "Incidents",
+        "alerts": "Alerts"
+      },
+      "metrics": {
+        "open_incidents": "Offene Incidents",
+        "critical_incidents": "Kritische Incidents",
+        "total_alerts": "Alerts gesamt",
+        "error_alerts": "Fehler-Alerts"
+      },
+      "filters": {
+        "incident_status": "Incident-Status",
+        "alert_severity": "Alert-Schweregrad",
+        "alert_suppression": "Suppression-Grund",
+        "all_statuses": "Alle Status",
+        "all_severities": "Alle Schweregrade",
+        "all_suppressions": "Alle Suppressions",
+        "no_suppression": "Keine Suppression",
+        "suppression_server_disabled": "Server deaktiviert",
+        "suppression_policy_disabled": "Policy deaktiviert",
+        "suppression_channel_disabled": "Channel deaktiviert",
+        "suppression_maintenance_mode": "Wartungsmodus aktiv",
+        "suppression_ptero_offline": "Pterodactyl Server offline",
+        "suppression_policy_filtered": "Policy filtert Event",
+        "suppression_cooldown": "Cooldown aktiv",
+        "suppression_duplicate": "Duplikat erkannt",
+        "suppression_dispatch_error": "Dispatch-Fehler",
+        "suppression_rate_limited": "Rate-Limit erreicht"
+      },
+      "severity": {
+        "info": "INFO",
+        "warn": "WARN",
+        "error": "ERROR"
+      },
+      "columns": {
+        "duration": "Dauer",
+        "reason": "Ursache",
+        "impact": "Auswirkung",
+        "severity": "Schweregrad",
+        "suppression": "Suppression",
+        "channel": "Channel",
+        "policy": "Policy",
+        "actions": "Aktionen"
+      },
+      "suppression": {
+        "none": "Keine",
+        "server_disabled": "Server deaktiviert",
+        "policy_disabled": "Policy deaktiviert",
+        "channel_disabled": "Channel deaktiviert",
+        "maintenance_mode": "Wartungsmodus aktiv",
+        "ptero_server_offline": "Pterodactyl Server offline",
+        "policy_filtered": "Policy filtert Event",
+        "cooldown": "Cooldown aktiv",
+        "duplicate": "Duplikat erkannt",
+        "dispatch_error": "Dispatch-Fehler",
+        "rate_limited": "Rate-Limit erreicht"
+      },
+      "actions": {
+        "open_incident": "Analyse",
+        "server_detail": "Server",
+        "resend_alert": "Erneut senden",
+        "close_detail": "Schließen",
+        "close_icon_aria": "Detail-Modal schließen"
+      },
+      "feedback": {
+        "resend_success": "Alert erneut gesendet ({{time}}).",
+        "resend_failed": "Alert konnte nicht erneut gesendet werden."
+      },
+      "incident_detail": {
+        "title": "Incident-Details",
+        "sections": {
+          "overview": "Überblick",
+          "analysis": "Analyse",
+          "alert_history": "Alert-Historie"
+        },
+        "id": "Incident-ID",
+        "server": "Server",
+        "status": "Status",
+        "started": "Gestartet",
+        "duration": "Dauer",
+        "reason": "Ursache",
+        "impact": "Auswirkung",
+        "alerts_count": "Zugehörige Alerts",
+        "error_alerts": "Davon Fehler-Alerts",
+        "channels": "Betroffene Channels",
+        "policies": "Auslösende Policies",
+        "recommendation": "Empfohlene nächste Schritte",
+        "related_alerts": "Zugehörige Alert-Historie",
+        "related_alerts_empty": "Keine zugehörigen Alerts gefunden"
+      },
+      "recommendation": {
+        "online": "Systemstatus ist wieder stabil. Prüfe, ob offene Incidents geschlossen und Follow-up-Tasks dokumentiert werden können.",
+        "offline": "Priorität hoch: Erreichbarkeit von Node und Endpoint prüfen, ggf. Dienst neu starten und Incident-Kommunikation aktiv halten.",
+        "transition": "Status im Übergang: weitere 1-2 Checkzyklen beobachten und bei anhaltender Instabilität auf OFFLINE-Runbook wechseln.",
+        "maintenance": "Geplante Wartung aktiv: Wartungsfenster und erwartete Dauer mit Stakeholdern abstimmen, danach Recovery-Check ausführen."
+      },
+      "global_search_hint": "Die globale Suche oben rechts filtert zusätzlich nach Servern, Ursachen, Meldungen und Policies.",
+      "not_available": "n. a.",
+      "empty": {
+        "incidents": "Keine passenden Incidents gefunden",
+        "alerts": "Keine passenden Alerts gefunden"
+      }
+    },
+    "performance": {
+      "title": "Performance Übersicht"
+    },
+    "alert_log": {
+      "title": "Alert Log",
+      "time": "Zeit",
+      "server": "Server",
+      "message": "Meldung",
+      "filters": {
+        "event_type": "Event-Typ",
+        "delivery": "Zustellung",
+        "time_window": "Zeitraum",
+        "all_event_types": "Alle Event-Typen",
+        "all_delivery": "Alle Zustellungen",
+        "only_sent": "Nur gesendet",
+        "only_suppressed": "Nur unterdrückt",
+        "last_24h": "Letzte 24 Stunden",
+        "last_7d": "Letzte 7 Tage",
+        "last_30d": "Letzte 30 Tage"
+      }
+    },
+    "server_detail": {
+      "title": "Serverdetails: {{name}}",
+      "back": "Zurück zu Servern",
+      "loading": "Serverdetails werden geladen...",
+      "hero": {
+        "no_panel": "Kein Panel",
+        "endpoint": "{{protocol}} Server: {{target}}",
+        "default_protocol": "Game",
+        "copied": "In Zwischenablage kopiert",
+        "next_refresh": "Nächste Aktualisierung in {{seconds}}s"
+      },
+      "actions": {
+        "start": "Starten",
+        "stop": "Stoppen",
+        "restart": "Neustarten",
+        "logs": "Log anzeigen",
+        "pause": "Pausieren",
+        "resume": "Fortsetzen",
+        "edit": "Bearbeiten",
+        "duplicate": "Duplizieren",
+        "delete": "Löschen",
+        "delete_confirm": "Server \"{{name}}\" wirklich löschen?",
+        "disabled": {
+          "no_permission": "Keine Berechtigung",
+          "pending_save": "Aktion läuft bereits",
+          "no_panel_link": "Kein Panel-Server verknüpft",
+          "in_transition": "Serverzustand wird gerade geändert",
+          "already_online": "Server ist bereits online",
+          "already_offline": "Server ist bereits offline",
+          "maintenance_mode": "Im Wartungsmodus nicht verfügbar",
+          "requires_online": "Nur bei online Server möglich",
+          "not_available": "Aktion aktuell nicht verfügbar"
+        }
+      },
+      "activity": {
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "no_check": "Noch kein Check",
+        "last_check_ago": "vor {{minutes}} Min.",
+        "interval": "Überprüfe alle {{seconds}} Sekunden",
+        "now": "jetzt",
+        "tooltip": {
+          "time": "Zeit: {{value}}",
+          "online": "Status: Online",
+          "offline": "Status: Offline"
+        }
+      },
+      "kpi": {
+        "ping_current": "Ping",
+        "ping_avg": "Durchschn. Ping",
+        "availability": "Verfügbarkeit",
+        "current": "(Aktuell)",
+        "last_24h": "(24-Stunden)",
+        "last_30d": "(30-Tage)",
+        "ms_value": "{{value}} ms",
+        "percent_value": "{{value}}%"
+      },
+      "chart": {
+        "players_title": "Spieleranzahl",
+        "players_current": "Aktuell {{current}} / {{max}} Spieler",
+        "rtt_title": "RTT Verlauf",
+        "tooltip": {
+          "time": "Zeit: {{value}}",
+          "players": "Spieler: {{value}}",
+          "rtt": "RTT: {{value}} ms"
+        }
+      },
+      "range": {
+        "last_30m": "Letzte 30 Min",
+        "last_2h": "Letzte 2 Std",
+        "last_6h": "Letzte 6 Std",
+        "last_24h": "Letzte 24 Std"
+      },
+      "related": {
+        "title": "Weitere Server desselben Spiels",
+        "no_game": "Kein Spiel zugewiesen",
+        "empty": "Keine weiteren Server für dieses Spiel gefunden",
+        "sort": {
+          "online": "Online",
+          "offline": "Offline",
+          "rtt": "RTT",
+          "player": "Player"
+        },
+        "players": "Spieler: {{current}}/{{max}}",
+        "rtt": "RTT: {{value}} ms",
+        "last_check": "Check vor {{minutes}} Min"
+      },
+      "incident_modal": {
+        "title": "Incident Details",
+        "close": "Schließen",
+        "reason": "Grund:",
+        "source": "Quelle:",
+        "started": "Start:",
+        "ended": "Ende:",
+        "status": "Status:",
+        "duration": "Dauer:",
+        "duration_value": "{{minutes}} Minuten"
+      },
+      "log_modal": {
+        "title": "Server-Log (read-only)",
+        "close": "Schließen",
+        "loading": "Lade Logdaten...",
+        "empty": "Keine Logdaten vorhanden."
+      },
+      "edit": {
+        "title": "Server-Metadaten",
+        "server_name": "Servername",
+        "source": "Serverquelle",
+        "source_ptero": "Pterodactyl Panel",
+        "source_external": "Externer Hoster",
+        "hoster": "Hoster-Profil",
+        "game_preset": "Spiele-Preset",
+        "maintenance_mode": "Wartungsmodus",
+        "maintenance_normal": "Normal",
+        "maintenance_maintenance": "Wartung aktiv",
+        "game_label": "Game Label",
+        "game_icon_url": "Game Icon URL",
+        "game_icon_upload": "Game Icon Upload",
+        "no_game_label": "Kein Game Label",
+        "cancel": "Abbrechen",
+        "save": "Metadaten speichern",
+        "saving": "Speichert...",
+        "saved": "Metadaten gespeichert"
+      },
+      "endpoints_title": "Endpoints",
+      "incidents_title": "Incident-Verlauf",
+      "raw_state_title": "Raw State",
+      "no_endpoints": "Keine Endpoints vorhanden",
+      "yes": "Ja",
+      "no": "Nein",
+      "metrics": {
+        "players": "Spieler",
+        "rtt": "RTT",
+        "last_check": "Letzter Check",
+        "panel": "Panel"
+      },
+      "charts": {
+        "uptime": "Uptime",
+        "rtt": "RTT",
+        "players": "Spieler"
+      },
+      "fields": {
+        "status": "Status",
+        "raw_state": "Raw State",
+        "last_check_at": "Letzter Check",
+        "last_status_change_at": "Letzter Statuswechsel",
+        "last_reason_code": "Reason Code",
+        "last_reason_source": "Reason Source",
+        "panel_id": "Panel-ID",
+        "node_id": "Node-ID"
+      },
+      "endpoint_fields": {
+        "label": "Bezeichnung",
+        "target": "Ziel",
+        "protocol": "Protokoll",
+        "purpose": "Zweck",
+        "primary": "Primär",
+        "enabled": "Aktiv"
+      }
+    },
+    "admin": {
+      "title": "Administration",
+      "create": "Erstellen",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "modal_title": "Erstellen/Bearbeiten",
+      "metrics": {
+        "total_items": "Gesamteinträge",
+        "active_items": "Aktive Einträge",
+        "current_scope": "Aktueller Bereich"
+      },
+      "section_descriptions": {
+        "panels": "Verwaltung der Monitoring-Panels inklusive panel-spezifischer Integrationswerte.",
+        "servers": "Verwaltung der Hoster-Presets und Standardwerte für das manuelle Anlegen externer Server.",
+        "games": "Verwaltung vordefinierter Spielbezeichnungen für die Serveranlage.",
+        "a2s": "Verwaltung der A2S-Integrationseinstellungen.",
+        "nodes": "Verwaltung der Worker-Nodes inklusive node-spezifischer Integrationswerte.",
+        "alerts": "Verwaltung von Alert-Channels und Alert-Policies in einer gemeinsamen Ansicht.",
+        "settings": "Globale Systemeinstellungen inkl. Check-Profile-Standards für Monitoring und Worker.",
+        "roles": "Verwaltung der Rollen und Rollenzuweisungsregeln."
+      },
+      "settings": {
+        "title": "Bereichseinstellungen",
+        "save": "Einstellungen speichern",
+        "info_aria": "Information zu {{field}} anzeigen",
+        "fields": {
+          "auto_sync": "Auto-Sync",
+          "sync_interval_min": "Sync-Intervall (Minuten)",
+          "show_in_dashboard_filters": "In Dashboard-Filtern anzeigen",
+          "ptero_panel_url": "Pterodactyl Panel-URL",
+          "ptero_panel_api_key_secret": "Pterodactyl API-Key (vollständig)",
+          "ptero_panel_api_key_hint": "Gespeicherter Key-Hinweis",
+          "ptero_panel_sync_enabled": "Panel-Sync aktiviert",
+          "allow_custom_labels": "Benutzerdefinierte Labels erlauben",
+          "naming_pattern": "Namensschema",
+          "require_published_state": "Veröffentlichten Status erzwingen",
+          "a2s_integration_enabled": "A2S-Integration aktiv",
+          "a2s_timeout_ms": "A2S Timeout (ms)",
+          "a2s_retry_count": "A2S Retry-Anzahl",
+          "auto_discovery": "Auto-Discovery",
+          "healthcheck_interval_sec": "Healthcheck-Intervall (Sekunden)",
+          "maintenance_window_enabled": "Wartungsfenster aktiv",
+          "ptero_node_panel_id": "Zugehöriges Panel",
+          "ptero_node_auto_import": "Pterodactyl Nodes automatisch importieren",
+          "ptero_node_identifier_key": "Node-Identifier-Feld",
+          "ptero_node_identifier_value": "Node-Identifier-Wert",
+          "ptero_node_sync_interval_sec": "Node-Sync-Intervall (Sekunden)",
+          "game_icon_upload": "Spiel-Icon hochladen",
+          "game_icon_url": "Spiel-Icon URL",
+          "game_system_tags": "Systemweite Tags",
+          "game_max_players": "Max. Spieler",
+          "game_module_key": "Auslese-Modul",
+          "game_default_check_profile": "Standard-Check-Profil",
+          "game_query_timeout_ms": "Query-Timeout (ms)",
+          "game_restart_grace_sec": "Restart-Grace (Sekunden)",
+          "game_requires_query_endpoint": "Query-Endpoint erforderlich",
+          "auto_assign_profile": "Profil automatisch zuweisen",
+          "default_profile": "Standardprofil",
+          "enforce_unique_name": "Eindeutigen Namen erzwingen",
+          "strict_schema_validation": "Strikte Schema-Validierung",
+          "allow_profile_cloning": "Profil-Kopien erlauben",
+          "auto_update_enabled": "Auto-Update-Prüfung aktivieren",
+          "placeholder_text": "",
+          "default_timeout_ms": "Standard-Timeout (ms)",
+          "worker_check_interval_sec": "Check-Intervall Worker (Sekunden)",
+          "worker_check_concurrency": "Check-Konkurrenz Worker",
+          "dedupe_window_sec": "Dedupe-Fenster (Sekunden)",
+          "retry_failed_deliveries": "Fehlgeschlagene Zustellung wiederholen",
+          "test_message_enabled": "Testnachrichten aktivieren",
+          "cooldown_sec": "Cooldown (Sekunden)",
+          "escalation_enabled": "Eskalation aktiv",
+          "send_resolved_notifications": "Resolved-Benachrichtigungen senden",
+          "role_change_requires_reason": "Begründung bei Rollenwechsel erzwingen",
+          "default_new_user_role": "Standardrolle für neue Benutzer",
+          "role_delegation_enabled": "Rollen-Delegation erlauben",
+          "server_default_hoster": "Standard-Hoster",
+          "server_default_protocol": "Standard-Protokoll",
+          "server_default_query_port_mode": "Standard-Query-Port-Modus",
+          "server_default_prefer_a2s": "A2S standardmäßig bevorzugen",
+          "server_auto_apply_preset_on_create": "Preset beim Anlegen automatisch anwenden",
+          "server_preset_key": "Preset-Key",
+          "server_preset_hoster": "Hoster",
+          "server_preset_protocol": "Protokoll",
+          "server_preset_query_port_mode": "Query-Port-Modus",
+          "server_preset_prefer_a2s": "A2S bevorzugen",
+          "server_preset_notes": "Hinweise"
+        },
+        "help_short": {
+          "auto_sync": "Synchronisiert Panels automatisch im Hintergrund.",
+          "sync_interval_min": "Legt fest, wie oft die Panel-Daten aktualisiert werden.",
+          "show_in_dashboard_filters": "Steuert die Sichtbarkeit von Panels als Dashboard-Filter.",
+          "ptero_panel_url": "Basis-URL des Pterodactyl Panels für die API-Anbindung.",
+          "ptero_panel_api_key_secret": "Vollständiger API-Key, wird nur write-only verarbeitet.",
+          "ptero_panel_api_key_hint": "Maskierter Hinweis auf den aktuell gespeicherten Key.",
+          "ptero_panel_sync_enabled": "Aktiviert den automatischen Panel-Abgleich.",
+          "allow_custom_labels": "Erlaubt freie Spielebezeichnungen zusätzlich zu Vorgaben.",
+          "naming_pattern": "Definiert das Benennungsmuster für neue Spieleinträge.",
+          "require_published_state": "Nur veröffentlichte Spieleinträge sind auswählbar.",
+          "a2s_integration_enabled": "Aktiviert Source Query (A2S) für Spielserver-Checks.",
+          "a2s_timeout_ms": "Timeout für A2S-Anfragen in Millisekunden.",
+          "a2s_retry_count": "Anzahl Wiederholungen bei fehlgeschlagener A2S-Abfrage.",
+          "auto_discovery": "Erkennt neue Nodes automatisch und legt sie an.",
+          "healthcheck_interval_sec": "Legt den Prüfzyklus für Node-Healthchecks fest.",
+          "maintenance_window_enabled": "Aktiviert Wartungsfenster-Logik für Nodes.",
+          "ptero_node_panel_id": "Legt fest, aus welchem Panel die Node geprüft oder importiert wird.",
+          "ptero_node_auto_import": "Importiert Nodes aus Pterodactyl automatisch.",
+          "ptero_node_identifier_key": "Wählt das Feld, über das Nodes zugeordnet werden.",
+          "ptero_node_identifier_value": "Konkreter Wert für das gewählte Identifier-Feld.",
+          "ptero_node_sync_interval_sec": "Intervall für den Node-Sync mit Pterodactyl.",
+          "game_icon_upload": "Lädt ein individuelles Icon für dieses Spiel-Label hoch.",
+          "game_icon_url": "Alternative oder zusätzliche Icon-URL für das Spiel.",
+          "game_system_tags": "Tags zur systemweiten Nutzung in Filtern und Zuordnungen.",
+          "game_max_players": "Default-Grenze für maximale Spieler pro Server dieses Spiels.",
+          "game_module_key": "Interner Modul-/Adapter-Key für die Ausleselogik.",
+          "game_default_check_profile": "Check-Profil, das bei neuen Servern dieses Spiels vorausgewählt wird.",
+          "game_query_timeout_ms": "Standard-Timeout für Query-basierte Prüfungen dieses Spiels.",
+          "game_restart_grace_sec": "Grace-Zeit nach geplantem Restart für dieses Spiel, bevor OFFLINE-Alerts ausgelöst werden.",
+          "game_requires_query_endpoint": "Erzwingt Query-Endpoint bei Servern dieses Spiels.",
+          "strict_schema_validation": "Prüft Check-Profile strikt auf Schema-Konformität.",
+          "allow_profile_cloning": "Erlaubt das Duplizieren bestehender Check-Profile.",
+          "auto_update_enabled": "Prüft automatisch auf neue Releases im GitHub-Repository.",
+          "default_timeout_ms": "Setzt den globalen Fallback-Timeout für Checks.",
+          "worker_check_interval_sec": "Legt fest, wie oft der Worker einen vollständigen Checklauf startet.",
+          "worker_check_concurrency": "Steuert, wie viele Server der Worker parallel prüfen darf.",
+          "dedupe_window_sec": "Fasst identische Alerts in einem Zeitfenster zusammen.",
+          "retry_failed_deliveries": "Wiederholt fehlgeschlagene Alert-Zustellungen automatisch.",
+          "test_message_enabled": "Erlaubt Testnachrichten für Alert-Channels.",
+          "cooldown_sec": "Definiert den Mindestabstand zwischen Alerts.",
+          "escalation_enabled": "Aktiviert Eskalationsregeln bei laufenden Störungen.",
+          "send_resolved_notifications": "Sendet eine Meldung nach erfolgreicher Entstörung.",
+          "role_change_requires_reason": "Erfordert eine Begründung, wenn Benutzerrollen geändert werden.",
+          "default_new_user_role": "Legt fest, welche Rolle neue Benutzer standardmäßig erhalten.",
+          "role_delegation_enabled": "Erlaubt berechtigten Rollen, andere Rollen zuzuweisen.",
+          "server_default_hoster": "Wählt den Hostertyp, der beim manuellen Anlegen vorausgewählt wird.",
+          "server_default_protocol": "Legt das Standardtransportprotokoll für externe Server fest.",
+          "server_default_query_port_mode": "Steuert, wie der Query-Port standardmäßig vorbelegt wird.",
+          "server_default_prefer_a2s": "Bevorzugt A2S-fähige Defaults bei kompatiblen Hostern.",
+          "server_auto_apply_preset_on_create": "Wendet beim Erstellen automatisch das ausgewählte Preset an.",
+          "server_preset_key": "Technischer, eindeutiger Schlüssel des Presets.",
+          "server_preset_hoster": "Hoster, für den dieses Preset optimiert ist.",
+          "server_preset_protocol": "Empfohlenes Protokoll für Game-Endpoint dieses Presets.",
+          "server_preset_query_port_mode": "Definiert das Verhalten des Query-Ports im Onboarding.",
+          "server_preset_prefer_a2s": "Markiert Preset als A2S-orientiert.",
+          "server_preset_notes": "Interne Beschreibung oder Einsatzhinweise für das Preset."
+        },
+        "help_tooltip": {
+          "auto_sync": "Wenn aktiviert, werden Panel-Daten in festen Intervallen automatisch aktualisiert. Das reduziert manuellen Pflegeaufwand und sorgt für konsistente Stammdaten im Betrieb.",
+          "sync_interval_min": "Legt fest, wie häufig Panel-Daten per API aktualisiert werden. Kleinere Werte liefern frischere Daten, erhöhen aber Last auf Panel/API. Typische Werte liegen zwischen 30 und 300 Sekunden (bzw. 1-5 Minuten je nach Betriebsgröße). Beispiel: 60 Sekunden für kleine Setups, 180 Sekunden für größere Umgebungen.",
+          "show_in_dashboard_filters": "Blendet Panels als auswählbaren Filter im Dashboard ein. Deaktivieren ist sinnvoll, wenn Panels intern genutzt werden und nicht im Tagesbetrieb gefiltert werden sollen.",
+          "ptero_panel_url": "URL des Ziel-Panels (z. B. https://panel.example.com). Den Wert findest du in der Browser-Adresszeile des Pterodactyl-Admins. Wichtig: ohne /api/...-Pfad eintragen, nur die Panel-Basis-URL.",
+          "ptero_panel_api_key_secret": "Hier den vollständigen API-Key aus Pterodactyl eintragen. Der Key wird serverseitig als Secret gespeichert und nach dem Speichern nicht wieder im Klartext angezeigt. Erstellbar in Pterodactyl Admin unter API/Application Keys.",
+          "ptero_panel_api_key_hint": "Zeigt nur einen maskierten Hinweis auf den aktuell gespeicherten Key. Dieser Wert dient der Orientierung und ersetzt nicht die Secret-Eingabe.",
+          "ptero_panel_sync_enabled": "Wenn aktiv, werden Panel-Daten regelmäßig synchronisiert. Bei Wartung oder API-Problemen kann die Synchronisierung temporär deaktiviert werden.",
+          "allow_custom_labels": "Erlaubt freie Spielebezeichnungen zusätzlich zu den vordefinierten Einträgen. Für eine saubere Datenqualität sollte diese Option in produktiven Umgebungen meist deaktiviert bleiben.",
+          "naming_pattern": "Definiert das empfohlene Namensmuster für neue Spieleinträge (z. B. spiel-modus-region). Das hilft bei einheitlicher Benennung in Listen, Filtern und Auswertungen.",
+          "require_published_state": "Erzwingt, dass nur freigegebene (veröffentlichte) Spieleinträge in der Serveranlage auswählbar sind. So werden unfertige oder Testeinträge zuverlässig ausgeschlossen.",
+          "a2s_integration_enabled": "Aktiviert die A2S-Abfrage für kompatible Spiele. Dadurch stehen Query-Daten wie Spielerzahlen und Antwortzeiten präziser zur Verfügung.",
+          "a2s_timeout_ms": "Maximale Wartezeit pro A2S-Abfrage. Niedrige Werte reagieren schneller auf Ausfälle, können aber bei langsamen Netzen zu Fehlalarmen führen. Beispiel: 1500 ms (Standard), 2500 ms bei hohen Latenzen.",
+          "a2s_retry_count": "Anzahl zusätzlicher A2S-Versuche bei Fehlern. Mehr Retries erhöhen Robustheit, verlängern aber die Gesamtdauer eines Checkzyklus. Beispiel: 1 für schnelle Reaktion, 2-3 für instabile Netze.",
+          "auto_discovery": "Erkennt neue Nodes automatisch und legt sie als verwaltbare Einträge an. Quelle sind importierte Panel-Daten. Aktivieren spart manuelles Anlegen, deaktivieren gibt dir volle manuelle Kontrolle.",
+          "healthcheck_interval_sec": "Intervall für Node-Healthchecks. Niedrige Werte erkennen Ausfälle schneller, erzeugen aber mehr Check-Traffic und Last. Übliche Startwerte sind 30-60 Sekunden. Beispiel: 30s in kritischen Umgebungen, 60s bei Standardlast.",
+          "maintenance_window_enabled": "Aktiviert Wartungsfenster-Logik für diese Node. Während geplanter Wartung können Alarme reduziert/unterdrückt werden, damit kein unnötiges Alert-Rauschen entsteht.",
+          "ptero_node_panel_id": "Wählt das Panel, gegen dessen API die Node-ID geprüft wird. Verwende das Panel, in dem die Node tatsächlich existiert, damit Validierung und spätere Synchronisierung korrekt arbeiten.",
+          "ptero_node_auto_import": "Importiert Node-Metadaten direkt aus Pterodactyl. Die Daten stammen aus der Node-Verwaltung im Panel (Name, FQDN/IP, interne Node-ID).",
+          "ptero_node_identifier_key": "Bestimmt, über welches Merkmal gemappt wird: Name, FQDN oder Pterodactyl-Node-ID. Nutze das Feld, das in deiner Umgebung stabil und eindeutig ist.",
+          "ptero_node_identifier_value": "Konkreter Vergleichswert zum gewählten Identifier-Feld. Beispiele: bei 'name' der Panel-Node-Name, bei 'fqdn' die Hostadresse, bei 'ptero_node_id' die interne Node-ID aus dem Panel. Den Wert findest du in den Node-Details im Pterodactyl-Admin.",
+          "ptero_node_sync_interval_sec": "Legt fest, wie oft Node-Daten aus dem Panel synchronisiert werden. Kürzere Intervalle liefern schnellere Aktualität, erhöhen aber API-Last. Beispiel: 60s im Betrieb, 120s bei größeren Installationen.",
+          "game_icon_upload": "Hier kann ein Icon für das Spiel hinterlegt werden (z. B. PNG/SVG). Das Icon verbessert Erkennbarkeit in Listen und Auswahlen. In dieser Mock-Ansicht wird der Dateiname gespeichert.",
+          "game_icon_url": "Optionaler Icon-Link (CDN/Asset-URL), falls Icons zentral gehostet werden. Nutze stabile URLs, damit Darstellungen konsistent bleiben. Beispiel: https://cdn.example.com/games/enshrouded.png",
+          "game_system_tags": "Kommagetrennte Tags (z. B. survival, pvp, coop), die systemweit wiederverwendet werden können. Diese helfen bei Filtern, Routing und Standardzuordnungen.",
+          "game_max_players": "Standardwert für die maximale Spielerzahl eines Spiels. Wird als sinnvolle Voreinstellung für neue Server dieses Game-Labels genutzt. Beispiel: 10 (Valheim), 64 (Shooter), 100 (Sandbox).",
+          "game_module_key": "Wählt das interne Auslese-Modul. Referenz gemäß Konzept: `adapter_key` aus `check_adapters`/`check_profiles.rules.checks` (z. B. `tcp_connect`, `enshrouded_query`, `a2s_query`).",
+          "game_default_check_profile": "Legt das Standard-Check-Profil für neue Server dieses Spiels fest. Referenz im Konzept: `check_profiles` und deren `rules`. Beispiel: `default-a2s` für Source-basierte Spiele, `default-tcp` für TCP-Checks.",
+          "game_query_timeout_ms": "Spiel-spezifischer Timeout für Query-Auslese. Niedrige Werte erkennen Fehler schneller, höhere Werte sind robuster bei trägen Netzen. Beispiel: 1200-1800 ms lokal, 2500 ms bei WAN/Cloud.",
+          "game_restart_grace_sec": "Definiert je Spiel die Restart-Grace-Zeit in Sekunden. Während dieser Zeit werden panel-gebundene Neustart-Ausfälle als TRANSITION behandelt statt OFFLINE zu alarmieren. So lassen sich langsame Spiele gezielt toleranter konfigurieren (z. B. 120s, 240s, 420s).",
+          "game_requires_query_endpoint": "Wenn aktiv, müssen Server dieses Spiels einen QUERY-Endpoint besitzen. Das reduziert fehlerhafte Konfigurationen bei query-basierten Modulen.",
+          "strict_schema_validation": "Prüft Check-Profile streng gegen das definierte Schema. Falsche oder unvollständige Konfigurationen werden frühzeitig erkannt und nicht angewendet.",
+          "allow_profile_cloning": "Erlaubt das Kopieren bestehender Check-Profile als Vorlage. Das spart Zeit bei ähnlichen Profilvarianten und reduziert Konfigurationsfehler.",
+          "auto_update_enabled": "Aktiviert die automatische Versionsprüfung gegen das GitHub-Repository `AmFearLiath/GameserverMonitor`. Es werden Update-Informationen ermittelt und im Systemstatus gespeichert.",
+          "default_timeout_ms": "Globaler Fallback-Timeout für Checks, wenn im jeweiligen Profil kein eigener Wert gesetzt ist. Hilft, hängende Prüfungen zuverlässig zu begrenzen. Beispiel: 1500 ms Standard, 3000 ms für langsame Targets.",
+          "worker_check_interval_sec": "Intervall in Sekunden für neue Checkläufe. Kleinere Werte erhöhen Aktualität, aber auch Last auf Worker, Datenbank und Zielsysteme. Beispiel: 30s für enges Monitoring, 60s für Standardbetrieb.",
+          "worker_check_concurrency": "Anzahl paralleler Serverchecks pro Lauf. Höhere Werte verkürzen die Gesamtdauer eines Zyklus, erhöhen aber Last und mögliche Timeouts. Beispiel: 10 bei kleinen Setups, 25-40 bei größeren Clustern.",
+          "dedupe_window_sec": "Zeitraum, in dem identische Alerts zusammengeführt werden. Das reduziert Alarmfluten bei wiederkehrenden, gleichartigen Ereignissen. Beispiel: 300s (5 Minuten) als praxisnaher Startwert.",
+          "retry_failed_deliveries": "Wiederholt fehlgeschlagene Alert-Zustellungen automatisch. Erhöht die Zustellzuverlässigkeit bei temporären Netzwerk- oder Provider-Problemen.",
+          "test_message_enabled": "Erlaubt Testnachrichten für Alert-Channels, um Konfiguration und Erreichbarkeit zu prüfen, ohne reale Incidents auszulösen.",
+          "cooldown_sec": "Mindestabstand zwischen zwei Alerts derselben Policy. Verhindert schnelle Wiederholungen und entlastet operative Teams. Beispiel: 180s für kritische Systeme, 600s für weniger kritische Services.",
+          "escalation_enabled": "Aktiviert Eskalationsregeln für anhaltende Störungen, z. B. Weiterleitung an zusätzliche Empfänger nach definierter Zeit.",
+          "send_resolved_notifications": "Sendet aktiv eine Folgemeldung, sobald ein Vorfall behoben ist. Das verbessert die Nachvollziehbarkeit im Incident-Lifecycle.",
+          "role_change_requires_reason": "Wenn aktiviert, muss bei jeder Rollenänderung ein Grund dokumentiert werden. Das verbessert Nachvollziehbarkeit und Auditierbarkeit von Berechtigungsänderungen.",
+          "default_new_user_role": "Definiert die Startrolle für neu angelegte Benutzerkonten. So werden initiale Berechtigungen konsistent und sicher vergeben. Beispiel: `Viewer` als sicherer Standard.",
+          "role_delegation_enabled": "Erlaubt delegierte Rollenzuweisung durch berechtigte Operatoren. In sicherheitskritischen Umgebungen sollte diese Option restriktiv eingesetzt werden.",
+          "server_default_hoster": "Legt den Hostertyp fest, der im Formular für externe Server standardmäßig ausgewählt wird. So lässt sich der häufigste Anbieter als Startwert definieren. Beispiel: `GPORTAL` bei überwiegend GPortal-Servern.",
+          "server_default_protocol": "Definiert das Standardprotokoll für neue externe Server. Je nach Spiel/Hoster ist UDP oder TCP sinnvoller. Beispiel: `UDP` für Gameserver-Query, `TCP` für reine Portchecks.",
+          "server_default_query_port_mode": "Steuert die Vorbelegung des Query-Ports: gleicher Port wie Game-Port, optional manuell oder komplett deaktiviert. Beispiel: `SAME_AS_GAME` für Standard-Setups.",
+          "server_default_prefer_a2s": "Wenn aktiviert, werden A2S-geeignete Defaults bevorzugt. Das ist besonders für Source-/Steam-basierte Spiele hilfreich.",
+          "server_auto_apply_preset_on_create": "Wendet beim Erstellen direkt das gewählte Preset an, damit typische Hoster-Werte nicht manuell nachkonfiguriert werden müssen.",
+          "server_preset_key": "Eindeutiger technischer Schlüssel (z. B. GPORTAL_DEFAULT). Wird für Wiedererkennung und API-basierte Verwaltung verwendet.",
+          "server_preset_hoster": "Bestimmt, für welchen Anbieter das Preset gedacht ist. Das erleichtert die richtige Vorauswahl im Admin-Formular. Beispiel: `NITRADO` oder `APEX`.",
+          "server_preset_protocol": "Definiert das empfohlene Netzwerkprotokoll für den primären Game-Endpoint dieses Presets. Beispiel: `UDP` für A2S-Checks.",
+          "server_preset_query_port_mode": "Legt fest, ob und wie ein Query-Port vorbelegt wird. Das reduziert Fehleingaben bei Hostern mit abweichendem Port-Verhalten. Beispiel: `MANUAL_OPTIONAL` bei getrennten Query-Ports.",
+          "server_preset_prefer_a2s": "Kennzeichnet Presets, bei denen A2S-Abfragen bevorzugt eingesetzt werden sollen.",
+          "server_preset_notes": "Freitext für interne Hinweise, Einschränkungen oder betriebliche Empfehlungen zum Preset."
+        },
+        "placeholders": {
+          "ptero_panel_api_key_secret": "Neuen API-Key eingeben, um den gespeicherten Key zu ersetzen"
+        },
+        "notes": {
+          "ptero_panel_api_key_secret_keep": "Leer lassen, um den aktuell gespeicherten API-Key beizubehalten.",
+          "game_icon_selected": "Ausgewählte Datei: {{file}}"
+        },
+        "update_status": {
+          "title": "Update-Status",
+          "current": "Installierte Version: {{version}}",
+          "latest": "Neueste GitHub-Version: {{version}}",
+          "available": "Ein Update ist verfügbar.",
+          "none": "Kein neues Update gefunden.",
+          "manual_update": "Manuelles Update starten"
+        }
+      },
+      "servers_settings": {
+        "title": "Hoster/Presets einstellen",
+        "presets_from_db": "Hoster-Presets aus der Datenbank",
+        "presets_from_db_help": "Diese Presets werden aus der Datenbank geladen und können über die Einträge im Server-Tab verwaltet werden."
+      },
+      "entities": {
+        "title": "Einträge",
+        "search": "Suchen",
+        "alert_filter": "Alert-Bereich",
+        "alert_filter_options": {
+          "all": "Alle",
+          "channels": "Alert Channels",
+          "policies": "Alert Policies"
+        }
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "send_test": "Test senden",
+        "validate_connection": "Verbindung prüfen"
+      },
+      "reachability": {
+        "unreachable": "Nicht erreichbar",
+        "disabled": "Deaktiviert",
+        "reachable": "Erreichbar",
+        "degraded": "Eingeschränkt erreichbar"
+      },
+      "validation": {
+        "panel_ok": "Panel-Verbindung erfolgreich geprüft.",
+        "node_ok": "Node-Verbindung erfolgreich geprüft (Modus: {{mode}}).",
+        "missing_panel_credentials": "Bitte Panel-URL und API-Key angeben.",
+        "missing_node_identity": "Bitte Panel und Node-ID angeben."
+      },
+      "feedback": {
+        "alert_test_sent": "Testnachricht für \"{{name}}\" wurde gesendet."
+      },
+      "modal": {
+        "create_title": "Eintrag erstellen",
+        "edit_title": "Eintrag bearbeiten",
+        "close": "Modal schließen"
+      },
+      "modal_groups": {
+        "panel_connection": "Panel-Verbindung",
+        "panel_sync": "Synchronisierung",
+        "panel_visibility": "Darstellung",
+        "node_discovery": "Discovery & Import",
+        "node_health": "Healthcheck & Wartung",
+        "node_mapping": "Node-Mapping",
+        "game_identity": "Identität & Assets",
+        "game_capacity": "Kapazität",
+        "game_monitoring": "Monitoring & Module",
+        "server_preset_identity": "Preset-Identität",
+        "server_preset_connectivity": "Konnektivität",
+        "server_preset_notes": "Hinweise"
+      },
+      "form": {
+        "name": "Name",
+        "status": "Status",
+        "alert_type": "Alert-Typ",
+        "alert_channel_config": "Webhook-URL oder JSON",
+        "alert_policy_cooldown": "Policy-Cooldown (Sekunden)",
+        "alert_policy_channels": "Zugewiesene Channels",
+        "permissions": "Berechtigungen"
+      },
+      "alert_form": {
+        "channel_config_help": "Für Discord entweder direkte Webhook-URL (https://...) oder JSON wie {\"webhook_url\":\"https://...\"}. Beim Bearbeiten leer lassen, um die bestehende Konfiguration beizubehalten.",
+        "policy_cooldown_help": "Mindestabstand zwischen zwei Alerts dieser Policy in Sekunden.",
+        "policy_channels_empty": "Keine Alert Channels vorhanden. Lege zuerst mindestens einen Channel an."
+      },
+      "permissions": {
+        "select_all": "Alle auswählen",
+        "clear": "Zurücksetzen",
+        "empty": "Keine Berechtigungen",
+        "groups": {
+          "read": "Lesen",
+          "operations": "Betrieb",
+          "infrastructure": "Infrastruktur",
+          "integrations": "Integrationen",
+          "security": "Sicherheit",
+          "system": "System"
+        }
+      },
+      "permission_options": {
+        "dashboard_read": "Dashboard lesen",
+        "servers_manage": "Server verwalten",
+        "incidents_read": "Incidents lesen",
+        "incidents_resolve": "Incidents lösen",
+        "alerts_manage": "Alerts verwalten",
+        "panels_manage": "Panel-Einträge verwalten",
+        "nodes_manage": "Node-Einträge verwalten",
+        "ptero_panels_manage": "Pterodactyl-Panels verwalten",
+        "ptero_nodes_manage": "Pterodactyl-Nodes verwalten",
+        "ptero_api_keys_manage": "Pterodactyl-API-Keys verwalten",
+        "users_manage": "Benutzer verwalten",
+        "roles_manage": "Rollen verwalten",
+        "auth_sessions_manage": "Sitzungen und Tokens verwalten",
+        "system_settings": "System-Einstellungen"
+      },
+      "permission_groups": {
+        "read": "Lesen",
+        "operations": "Betrieb",
+        "infrastructure": "Infrastruktur",
+        "integrations": "Integrationen",
+        "security": "Sicherheit",
+        "system": "System"
+      },
+      "option_values": {
+        "Active": "Aktiv",
+        "Disabled": "Deaktiviert",
+        "Pending": "Ausstehend",
+        "Draft": "Entwurf",
+        "Online": "Online",
+        "Offline": "Offline",
+        "Maintenance": "Wartung",
+        "Enabled": "Aktiviert",
+        "tcp_connect": "TCP Connect",
+        "enshrouded_query": "Enshrouded Query",
+        "a2s_query": "A2S Query",
+        "default-tcp": "Standard TCP",
+        "http-query": "HTTP Query",
+        "name": "Name",
+        "fqdn": "FQDN",
+        "ptero_node_id": "Pterodactyl Node-ID",
+        "GENERIC": "Generisch",
+        "GPORTAL": "GPortal",
+        "NITRADO": "Nitrado",
+        "SHOCKBYTE": "Shockbyte",
+        "APEX": "Apex Hosting",
+        "BISECT": "BisectHosting",
+        "HOSTHAVOC": "HostHavoc",
+        "SURVIVAL_SERVERS": "Survival Servers",
+        "UDP": "UDP",
+        "TCP": "TCP",
+        "SAME_AS_GAME": "Wie Game-Port",
+        "MANUAL_OPTIONAL": "Manuell (optional)",
+        "DISABLED": "Deaktiviert",
+        "Admin": "Admin",
+        "Operator": "Operator",
+        "Viewer": "Viewer",
+        "ADMIN": "Admin",
+        "USER": "Benutzer",
+        "OPERATOR": "Operator",
+        "VIEWER": "Viewer"
+      },
+      "alert_types": {
+        "channel": "Channel",
+        "policy": "Policy"
+      },
+      "sections": {
+        "panels": "Panel",
+        "servers": "Server",
+        "games": "Spiele",
+        "a2s": "A2S",
+        "nodes": "Nodes",
+        "alerts": "Alerts",
+        "settings": "Einstellungen",
+        "roles": "Rollen"
+      },
+      "columns": {
+        "id": "ID",
+        "name": "Name",
+        "type": "Typ",
+        "permissions": "Berechtigungen",
+        "status": "Status",
+        "updated_at": "Aktualisiert",
+        "actions": "Aktionen"
+      },
+      "external_server": {
+        "title": "Externen Server hinzufügen",
+        "description": "Server ohne Panel-Anbindung (z. B. GPortal) mit minimalen Angaben anlegen.",
+        "sections": {
+          "identity": "Identität & Zuordnung",
+          "connectivity": "Konnektivität"
+        },
+        "fields": {
+          "name": "Servername",
+          "preset": "Hoster-Preset",
+          "hoster": "Hoster-Profil",
+          "host": "Server-IP / Host",
+          "game_port": "Game-Port",
+          "query_port": "Query-Port (optional)",
+          "protocol": "Game-Protokoll",
+          "game_label": "Game-Label (optional)"
+        },
+        "hosters": {
+          "generic": "Generisch (manuell)",
+          "gportal": "GPortal (A2S empfohlen)",
+          "nitrado": "Nitrado (A2S empfohlen)",
+          "shockbyte": "Shockbyte",
+          "apex": "Apex Hosting",
+          "bisect": "BisectHosting",
+          "hosthavoc": "HostHavoc",
+          "survival_servers": "Survival Servers"
+        },
+        "presets": {
+          "none": "Kein Preset"
+        },
+        "help_short": {
+          "name": "Interner Anzeigename für den neuen Server.",
+          "preset": "Wendet vordefinierte Hoster-Einstellungen an.",
+          "hoster": "Bestimmt empfohlene Protokoll- und Port-Defaults.",
+          "host": "Öffentliche IP oder Hostname des Servers.",
+          "game_port": "Port für den eigentlichen Spielverkehr.",
+          "query_port": "Optionaler Query-Port für Status-/Spielerabfragen.",
+          "protocol": "Transportprotokoll für den Game-Endpoint.",
+          "game_label": "Optionale Spielzuordnung für Filter und Defaults."
+        },
+        "help_tooltip": {
+          "name": "Freier Name für die Verwaltung im Dashboard und in Listen. Nutze ein konsistentes Schema, z. B. Spiel-Region-Instanz. Beispiel: `CS2-EU-01`.",
+          "preset": "Wähle ein Hoster-Preset, um typische Einstellungen automatisch zu übernehmen. Presets können im Server-Tab verwaltet werden.",
+          "hoster": "Der Hoster beeinflusst sinnvolle Startwerte (z. B. UDP/A2S bei GPortal/Nitrado). Bei unbekanntem Anbieter nutze Generisch.",
+          "host": "Trage die erreichbare Adresse ein, unter der der Server abgefragt werden kann. DNS-Namen und IPv4 sind möglich. Beispiel: `203.0.113.42` oder `mc.example.net`.",
+          "game_port": "Primärer Port für den Spielzugriff. Dieser Wert ist verpflichtend und muss zwischen 1 und 65535 liegen. Beispiel: `25565` (Minecraft) oder `27015` (Source).",
+          "query_port": "Optionaler Port für Query-Module (z. B. A2S). Wenn leer, kann je nach Preset der Game-Port verwendet werden. Beispiel: `27016` bei getrenntem Query-Port.",
+          "protocol": "Legt fest, ob der primäre Endpoint per UDP oder TCP geprüft wird. Viele Gameserver nutzen UDP.",
+          "game_label": "Optionales Label zur Spielklassifizierung. Hilfreich für Filter, Auswertung und spätere Profilzuordnung. Beispiel: `Enshrouded` oder `CS2`."
+        },
+        "actions": {
+          "create": "Externen Server anlegen"
+        },
+        "feedback": {
+          "created": "Externer Server wurde angelegt.",
+          "alert_test_sent": "Testnachricht für \"{{name}}\" wurde gesendet."
+        }
+      }
+    },
+    "users_page": {
+      "metrics": {
+        "total_users": "Benutzer gesamt",
+        "admin_users": "Admins",
+        "disabled_users": "Deaktiviert",
+        "mfa_enabled": "MFA aktiviert"
+      },
+      "filters": {
+        "search": "Suche",
+        "role": "Rolle",
+        "status": "Status",
+        "all_roles": "Alle Rollen",
+        "all_statuses": "Alle Status"
+      },
+      "columns": {
+        "username": "Benutzername",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "status": "Status",
+        "mfa": "MFA",
+        "last_login": "Letzter Login",
+        "updated": "Aktualisiert",
+        "actions": "Aktionen"
+      },
+      "status": {
+        "active": "Aktiv",
+        "disabled": "Deaktiviert",
+        "pending": "Ausstehend"
+      },
+      "actions": {
+        "create": "Benutzer hinzufügen",
+        "edit": "Bearbeiten",
+        "enable": "Aktivieren",
+        "disable": "Deaktivieren",
+        "reset_password": "Passwort zurücksetzen",
+        "delete": "Löschen"
+      },
+      "feedback": {
+        "created": "Benutzer wurde angelegt.",
+        "saved": "Änderungen wurden gespeichert.",
+        "deleted": "Benutzer wurde entfernt.",
+        "reset_sent": "Passwort-Reset wurde erstellt (Code: {{code}}).",
+        "settings_saved": "Benutzer-Einstellungen wurden gespeichert."
+      },
+      "settings": {
+        "title": "Benutzer-Einstellungen",
+        "description": "Sicherheits- und Session-Vorgaben für Benutzerkonten.",
+        "save": "Einstellungen speichern",
+        "fields": {
+          "require_mfa_for_admin": "MFA für Admins erzwingen",
+          "session_timeout_min": "Session-Timeout (Minuten)",
+          "allow_local_password_login": "Lokalen Passwort-Login erlauben"
+        },
+        "help_short": {
+          "require_mfa_for_admin": "Verlangt MFA für Administrator-Konten.",
+          "session_timeout_min": "Definiert den Session-Timeout bei Inaktivität.",
+          "allow_local_password_login": "Erlaubt zusätzlich lokale Passwort-Logins."
+        }
+      },
+      "form": {
+        "username": "Benutzername",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "status": "Status",
+        "mfa_enabled": "MFA aktiv"
+      },
+      "modal": {
+        "create_title": "Benutzer erstellen",
+        "edit_title": "Benutzer bearbeiten",
+        "close": "Benutzer-Modal schließen",
+        "sections": {
+          "account": "Konto",
+          "permissions": "Berechtigungen"
+        }
+      },
+      "empty": "Keine passenden Benutzer gefunden"
+    },
+    "table": {
+      "name": "Name",
+      "game": "Spiel",
+      "status": "Status",
+      "reason": "Grund",
+      "tags": "Tags",
+      "actions": "Aktionen"
+    }
+  },
+  "status": {
+    "online": "Online",
+    "offline": "Offline",
+    "transition": "Übergang",
+    "maintenance": "Wartung"
+  },
+  "reason": {
+    "unknown": "Unbekannt"
+  },
+  "error": {
+    "load_servers_failed": "Server konnten nicht geladen werden",
+    "api_not_found": "Angeforderter Server wurde nicht gefunden",
+    "api_unauthorized": "Nicht autorisiert oder Sitzung abgelaufen.",
+    "api_validation_error": "Ungültige Eingabe.",
+    "api_internal_error": "Interner Fehler. Bitte erneut versuchen.",
+    "api_precondition_failed": "Voraussetzung nicht erfüllt oder Zielsystem nicht erreichbar.",
+    "api_forbidden": "Keine Berechtigung für diese Aktion.",
+    "api_conflict": "Konflikt mit bestehendem Zustand.",
+    "api_rate_limited": "Zu viele Anfragen. Bitte später erneut versuchen.",
+    "api_service_unavailable": "Dienst aktuell nicht verfügbar.",
+    "api_upstream_unauthorized": "Panel erreichbar, aber API-Key ist ungültig (401). Für Start/Stop/Logs wird ein gültiger Client API Key benötigt.",
+    "api_upstream_forbidden": "Panel erreichbar, aber API-Key hat nicht genug Rechte (403). Für Start/Stop/Logs wird ein Client API Key mit Serverzugriff benötigt (kein reiner Application Key).",
+    "api_upstream_unreachable": "Panel nicht erreichbar. Bitte URL, Port, Firewall und Routing vom API-Server zum Zielnetz prüfen.",
+    "api_upstream_timeout": "Panel antwortet nicht rechtzeitig. Bitte Erreichbarkeit und Latenz prüfen."
+  },
+  "alert": {},
+  "admin": {},
+  "validation": {}
+}
