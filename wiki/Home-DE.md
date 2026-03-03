@@ -6,15 +6,15 @@ Diese Wiki enthält Setup, Betrieb, Sicherheitschecklisten und Troubleshooting.
 
 ## Sprache
 
-- Englisch: [Home](Home.md)
-- Deutsch: [Startseite (DE)](Home-DE.md)
+- Englisch: [Home](Home)
+- Deutsch: [Startseite (DE)](Home-DE)
 
 ## Einstieg
 
-1. [Setup-Anleitung (DE)](Setup-DE.md)
-2. [FAQ (DE)](FAQ-DE.md)
-3. [Safety Checklist (DE)](Safety-Checklist-DE.md)
-4. [Known Issues (DE)](Known-Issues-DE.md)
+1. [Setup-Anleitung (DE)](Setup-DE)
+2. [FAQ (DE)](FAQ-DE)
+3. [Safety Checklist (DE)](Safety-Checklist-DE)
+4. [Known Issues (DE)](Known-Issues-DE)
 
 ## Umfang
 
@@ -31,4 +31,4 @@ GameserverMonitor umfasst:
 
 ---
 
-Need English docs? Go to [Home](Home.md).
+Need English docs? Go to [Home](Home).

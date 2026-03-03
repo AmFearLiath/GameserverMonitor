@@ -2,6 +2,6 @@
 
 ---
 
-**GameserverMonitor Wiki** · [GitHub Repository](https://github.com/AmFearLiath/GameserverMonitor) · [README](../README.md)
+**GameserverMonitor Wiki** · [GitHub Repository](https://github.com/AmFearLiath/GameserverMonitor) · [README](https://github.com/AmFearLiath/GameserverMonitor/blob/main/README.md)
 
-Language switch: [EN](Home.md) · [DE](Home-DE.md)
+Language switch: [EN](Home) · [DE](Home-DE)

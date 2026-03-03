@@ -6,15 +6,15 @@ Use this wiki for setup, operations, safety checks, and troubleshooting.
 
 ## Language
 
-- English: [Home](Home.md)
-- Deutsch: [Startseite (DE)](Home-DE.md)
+- English: [Home](Home)
+- Deutsch: [Startseite (DE)](Home-DE)
 
 ## Start Here
 
-1. [Setup Guide](Setup.md)
-2. [FAQ](FAQ.md)
-3. [Safety Checklist](Safety-Checklist.md)
-4. [Known Issues](Known-Issues.md)
+1. [Setup Guide](Setup)
+2. [FAQ](FAQ)
+3. [Safety Checklist](Safety-Checklist)
+4. [Known Issues](Known-Issues)
 
 ## Scope
 
@@ -31,4 +31,4 @@ GameserverMonitor includes:
 
 ---
 
-Need German docs? Go to [Startseite (DE)](Home-DE.md).
+Need German docs? Go to [Startseite (DE)](Home-DE).
